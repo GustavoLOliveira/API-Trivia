@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  body {
+    background: linear-gradient(180deg, #a4d9a3 0%, #c6d7a0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    background-position: center;
+    background-size: cover;
+  }
+  .container {
+    background-color: #a2d3c7;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+    max-width: 400px;
+  }
+
+  /*FORM*/
+  .form h3 {
+    margin-bottom: 1rem;
+    margin-left: 0.2rem;
+  }
+  
+  .form-input-container {
+    display: flex;
+  }
+  
+    input {
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+    width: 100px;
+    margin-left: 0.2rem;
+  }
+  
+  .form button {
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #53ac59;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+#trivia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 15px;
+  margin: 0.6rem 0;
+}
+
+#trivia-text {
+
+  font-weight: bold;
+}
